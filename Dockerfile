@@ -19,6 +19,3 @@ COPY . /flaskapp
 
 RUN pip3 --no-cache-dir install -r requirements.txt
 
-# Corre run.py cuando se levanta el container
-
-CMD ["python3", "run.py"]
